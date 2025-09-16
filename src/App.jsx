@@ -6,21 +6,27 @@ import { useState } from "react";
 
 function App() {
   const [selectedPokemon, setSelectedPokemon] = useState(0);
+  const [showNav, setShowNav] = useState(true);
+
+  function toggleNav() {
+    setShowNav(!showNav);
+  }
+
+  function closeNav() {
+    setShowNav(true);
+  }
 
   return (
     <>
-      <Header />
-      <SideNav selectedPokemon={selectedPokemon} setSelectedPokemon={setSelectedPokemon} />
+      <Header toggleNav={toggleNav} />
+      <SideNav
+        selectedPokemon={selectedPokemon}
+        setSelectedPokemon={setSelectedPokemon}
+        closeNav={closeNav} 
+        showNav = {showNav} />
       <PokeCard selectedPokemon={selectedPokemon} />
     </>
   )
 }
 
 export default App
-
-/**
- * My Changes:
- * 13: setSelectedPokemon={setSelectedPokemon}
-
-    
- */
