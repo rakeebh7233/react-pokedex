@@ -6,14 +6,14 @@ import { useState } from "react";
 
 function App() {
   const [selectedPokemon, setSelectedPokemon] = useState(0);
-  const [showNav, setShowNav] = useState(true);
+  const [showNav, setShowNav] = useState(false);
 
   function toggleNav() {
     setShowNav(!showNav);
   }
 
   function closeNav() {
-    setShowNav(true);
+    setShowNav(false);
   }
 
   return (

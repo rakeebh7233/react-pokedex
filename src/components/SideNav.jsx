@@ -12,8 +12,8 @@ export default function SideNav(props) {
     })
 
     return (
-        <nav className={(!showNav ? ' open' : '')}>
-            <div className={"header" + (!showNav ? ' open' : '')}>
+        <nav className={(showNav ? ' open' : '')}>
+            <div className={"header" + (showNav ? ' open' : '')}>
                 <button onClick={closeNav} className="open-nav-button">
                 <i className="fa fa-long-arrow-left" aria-hidden="true"></i>
                 </button>
