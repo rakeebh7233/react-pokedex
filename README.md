@@ -23,22 +23,20 @@
 ---
 
 ## Features
-- Browse Pokémon with **interactive cards** showing images types and moves  
-- **Modal pop-ups** for detailed information regareding Pokémon moves
+- Browse Pokémon with **interactive cards** showing images, types, and moves  
+- **Modal pop-ups** for detailed information regarding Pokémon moves
 - Responsive **side navigation** and header  
 - Lightweight and fast thanks to **Vite**  
 - Component-based architecture (`PokeCard`, `TypeCard`, `Modal`, etc.)  
 - **Caching of Pokémon data** for faster load times and reduced network requests  
-- **Data fetched from the Pokémon API** for up-to-date Pokémon information  
+- **Data fetched from the Pokémon API** for Pokémon information  
 
 ---
 
 ## Demo
 🔗 [Click here to try the app](https://flashypokedex.netlify.app/)   
   
-<img width="817" height="431" alt="React Pokédex Screenshot" src="https://via.placeholder.com/800x400.png?text=React+Pok%C3%A9dex" />
-
-
+<img width="696" height="807" alt="Pokedex Image" src="https://github.com/user-attachments/assets/424fe31c-f705-48bc-b15b-156040c94309" />
 ---
 
 ## Technologies
